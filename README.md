@@ -20,4 +20,4 @@
 - `git help <command>` gives help about that command within git - as `man git` for example is super long and unhelpful
 - `git log -p -- <filename>` shows changelog for that file 
     - `--` shows the minimum commits to explain the changes
-    - `-p` generates patch text (?)
+    - `-p` generates patch text, making edits clearer to read
