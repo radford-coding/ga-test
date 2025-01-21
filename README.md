@@ -7,7 +7,7 @@
 - [x] remove a file from the repo using CLI
 - [x] view repo in CLI (git ls-files)
 - [ ] view git changelog in CLI
-- [ ] 
+- [ ] understand github structure
 
 ### other useful commands
 
