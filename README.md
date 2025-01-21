@@ -9,7 +9,15 @@
 - [ ] view git changelog in CLI
 - [ ] understand github structure
 
+### basic workflow structure
+1. make edits to code (use `code <filename>` in CLI)
+2. `git add -A` or `git add <filename>`
+3. `git commit -m "descriptive text"` - the `-m` flag is to use the message written in this line
+4. `git push origin main` or `git push -u origin main` - the `-u` flag is for upstream reference
+
 ### other useful commands
 
-- `git help log`
-- `git log -p -- <filename>`
+- `git help <command>` gives help about that command within git - as `man git` for example is super long and unhelpful
+- `git log -p -- <filename>` shows changelog for that file 
+    - `--` shows the minimum commits to explain the changes
+    - `-p` is still a mystery
