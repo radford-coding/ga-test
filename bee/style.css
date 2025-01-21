@@ -28,32 +28,32 @@
   
   #top {
     left: 150px;
-    top: calc(200px - (100px * 1.05));;
+    top: calc(200px - (100px * 1.10));;
   }
   
   #bottom {
     left: 150px;
-    top: calc(200px + (100px * 1.05));
+    top: calc(200px + (100px * 1.10));
   }
   
   #topright {
-    left: calc(150px + (100px * cos(30deg)) * 1.05);
-    top: calc(200px - (100px * sin(30deg) * 1.05));
+    left: calc(150px + (100px * cos(30deg)) * 1.10);
+    top: calc(200px - (100px * sin(30deg) * 1.10));
   }
   
   #bottomright {
-    left: calc(150px + (100px * cos(30deg) * 1.05));
-    top: calc(200px + (100px * sin(30deg) * 1.05));
+    left: calc(150px + (100px * cos(30deg) * 1.10));
+    top: calc(200px + (100px * sin(30deg) * 1.10));
   }
   
   #bottomleft {
-    left: calc(150px - (100px * cos(30deg) * 1.05));
-    top: calc(200px + (100px * sin(30deg) * 1.05));
+    left: calc(150px - (100px * cos(30deg) * 1.10));
+    top: calc(200px + (100px * sin(30deg) * 1.10));
   }
   
   #topleft {
-    left: calc(150px - (100px * cos(30deg) * 1.05));
-    top: calc(200px - (100px * sin(30deg) * 1.05));
+    left: calc(150px - (100px * cos(30deg) * 1.10));
+    top: calc(200px - (100px * sin(30deg) * 1.10));
   }
   
   
