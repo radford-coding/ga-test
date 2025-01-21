@@ -6,8 +6,8 @@
 - [x] use auth token to log in
 - [x] remove a file from the repo using CLI
 - [x] view repo in CLI (git ls-files)
-- [ ] view git changelog in CLI
-- [ ] understand github structure
+- [x] view git changelog in CLI
+- [ ] understand github structure (will I ever check this off, I wonder)
 
 ### basic workflow structure
 1. make edits to code (use `code <filename>` in CLI)
@@ -20,4 +20,4 @@
 - `git help <command>` gives help about that command within git - as `man git` for example is super long and unhelpful
 - `git log -p -- <filename>` shows changelog for that file 
     - `--` shows the minimum commits to explain the changes
-    - `-p` is still a mystery
+    - `-p` generates patch text (?)
