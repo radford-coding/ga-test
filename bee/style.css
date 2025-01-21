@@ -1,7 +1,7 @@
 .board {
     width: 400px;
     height: 600px;
-    background-color: lightgray;
+    background-color: #121212;
     position: absolute;
   }
   
@@ -13,7 +13,7 @@
   .hex {
     /* width: 100px; */
     height: 100px;
-    background-color: gray;
+    background-color: rgb(56, 55, 65);
   /*   hexagon shape, flat on top */
     aspect-ratio: 1/cos(30deg);
     clip-path: polygon(50% -50%, 100% 50%, 50% 150%, 0 50%);
@@ -21,38 +21,38 @@
   }
   
   #center {
-    background-color: gold;
-    left: 200px;
+    background-color: rgb(248, 218, 34);
+    left: 150px;
     top: 200px;
   }
   
   #top {
-    left: 200px;
+    left: 150px;
     top: 100px;
   }
   
   #bottom {
-    left: 200px;
+    left: 150px;
     top: 300px;
   }
   
   #topright {
-    left: calc(200px + 100px * cos(30deg));
+    left: calc(150px + 100px * cos(30deg));
     top: calc(200px - 100px * sin(30deg));
   }
   
   #bottomright {
-    left: calc(200px + 100px * cos(30deg));
+    left: calc(150px + 100px * cos(30deg));
     top: calc(200px + 100px * sin(30deg));
   }
   
   #bottomleft {
-    left: calc(200px - 100px * cos(30deg));
+    left: calc(150px - 100px * cos(30deg));
     top: calc(200px + 100px * sin(30deg));
   }
   
   #topleft {
-    left: calc(200px - 100px * cos(30deg));
+    left: calc(150px - 100px * cos(30deg));
     top: calc(200px - 100px * sin(30deg));
   }
   
