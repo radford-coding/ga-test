@@ -1,22 +1,28 @@
-let correctGuesses = ["Bee"];
-
-let guesses = "";
-for (let i = 0; i < correctGuesses.length; i++) {
-  guesses += correctGuesses[i] + "\n";
-}
-document.querySelector(".words").innerHTML = guesses;
-
-
-function assignLetters(lttrs) {
-  document.querySelector("#centerLetter").innerHTML = lttrs[0];
-  document.querySelector("#topLetter").innerHTML = lttrs[1];
-  document.querySelector("#toprightLetter").innerHTML = lttrs[2];
-  document.querySelector("#bottomrightLetter").innerHTML = lttrs[3];
-  document.querySelector("#bottomLetter").innerHTML = lttrs[4];
-  document.querySelector("#bottomleftLetter").innerHTML = lttrs[5];
-  document.querySelector("#topleftLetter").innerHTML = lttrs[6];
+function writeGuesses(guessArray) {
+  // currently assumes alphabetical input
+  let guesses = "";
+  for (let i = 0; i < guessArray.length; i++) {
+    guesses += guessArray[i] + "<br>";
+  }
+  document.querySelector(".words").innerHTML = guesses;
 }
 
+let correctGuesses = ["Bee", "Beer", "Beets", "Battlestar Galactica"];
+writeGuesses(correctGuesses);
+
+
+
+
+function assignLetters(inputString) {
+  document.querySelector("#center").innerHTML = inputString[0];
+  document.querySelector("#top").innerHTML = inputString[1];
+  document.querySelector("#topright").innerHTML = inputString[2];
+  document.querySelector("#bottomright").innerHTML = inputString[3];
+  document.querySelector("#bottom").innerHTML = inputString[4];
+  document.querySelector("#bottomleft").innerHTML = inputString[5];
+  document.querySelector("#topleft").innerHTML = inputString[6];
+}
+
+// initialize the board
 let letters = "FALIGNP";
 assignLetters(letters);
-console.log(letters[1]);
