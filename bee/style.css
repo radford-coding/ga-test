@@ -1,5 +1,6 @@
 .score {
     width: 400px;
+    height: 100px;
     background-color: #121212;
     position: absolute;
     top: 0;
@@ -22,7 +23,7 @@
     position: absolute;
     top: 0;
     left: 400px;
-
+    color: rgb(207, 207, 207);
 }
   
 .hex {
@@ -33,6 +34,7 @@
     clip-path: polygon(50% -50%, 100% 50%, 50% 150%, 0 50%);
     /* still having centering problems that I suspect come from these vertices */
     position: absolute;
+    color: rgb(248, 248, 248);
   }
   
   /* styles for the 7 hexes */
@@ -40,37 +42,38 @@
   #center {
     background-color: rgb(248, 218, 34);
     left: 150px;
-    top: 200px;
+    top: 250px;
+    color: black;
   }
   
   #top {
     left: 150px;
-    top: calc(200px - (100px * 1.10));;
+    top: calc(250px - (100px * 1.10));;
   }
   
   #bottom {
     left: 150px;
-    top: calc(200px + (100px * 1.10));
+    top: calc(250px + (100px * 1.10));
   }
   
   #topright {
     left: calc(150px + (100px * cos(30deg)) * 1.10);
-    top: calc(200px - (100px * sin(30deg) * 1.10));
+    top: calc(250px - (100px * sin(30deg) * 1.10));
   }
   
   #bottomright {
     left: calc(150px + (100px * cos(30deg) * 1.10));
-    top: calc(200px + (100px * sin(30deg) * 1.10));
+    top: calc(250px + (100px * sin(30deg) * 1.10));
   }
   
   #bottomleft {
     left: calc(150px - (100px * cos(30deg) * 1.10));
-    top: calc(200px + (100px * sin(30deg) * 1.10));
+    top: calc(250px + (100px * sin(30deg) * 1.10));
   }
   
   #topleft {
     left: calc(150px - (100px * cos(30deg) * 1.10));
-    top: calc(200px - (100px * sin(30deg) * 1.10));
+    top: calc(250px - (100px * sin(30deg) * 1.10));
   }
   
   
@@ -80,7 +83,7 @@
     height: 5px;
     background-color: red;
     position: absolute;
-    top: 200px;
-    left: 200px;
+    top: 250px;
+    left: 250px;
     z-index: 2;
   }

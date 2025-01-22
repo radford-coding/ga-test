@@ -9,6 +9,7 @@
 - [x] view git changelog in CLI
 - [ ] understand github structure (will I ever check this off, I wonder)
 - [x] learn how to peek at webpage in progress - `html-preview.github.io`
+- [x] learn how to use git through vs code
 
 ### basic workflow structure
 1. make edits to code (use `code <filename>` in CLI)
