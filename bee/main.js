@@ -19,3 +19,4 @@ function assignLetters(lttrs) {
 
 let letters = "FALIGNP";
 assignLetters(letters);
+console.log(letters[1]);
