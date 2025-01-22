@@ -1,5 +1,7 @@
-
-
+/* wow you can set the whole page background color */
+html {
+  background-color: gray;
+}
 
 
 
@@ -7,6 +9,19 @@ body {
   font-family: sans-serif;
   font-size: 16px;
   --bg: #121212;
+  --txt: rgb(248, 248, 248);
+}
+
+.guess {
+  width: 400px;
+  height: 100px;
+  background-color: red;
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: center;
+  vertical-align: middle;
+  
 }
 
 .score {
@@ -24,7 +39,7 @@ body {
     background-color: var(--bg);
     position: absolute;
     top: 100px;
-    left: 0;
+    left: 0px;
   }
 
 .words {
@@ -35,7 +50,7 @@ body {
     position: absolute;
     top: 0;
     left: 400px;
-    color: rgb(207, 207, 207);
+    color: var(--txt);
     box-sizing: border-box;
 }
   
@@ -46,7 +61,7 @@ body {
     aspect-ratio: 1/cos(30deg);
     clip-path: polygon(50% -50%, 100% 50%, 50% 150%, 0 50%);
     position: absolute;
-    color: rgb(248, 248, 248);
+    color: var(--txt);
     /* z-index: 1; */
     display: flex;
     justify-content: center;
@@ -97,13 +112,14 @@ body {
   }
   
   
-  /* for helping me see positions */
-  /* .test {
-    width: 5px;
-    height: 5px;
-    background-color: red;
-    position: absolute;
-    top: 250px;
-    left: 250px;
-    z-index: 2;
-  } */
+.btn-container {
+  position: absolute;
+  top: 500px;
+  left: 100px;
+}
+
+.btn {
+  background-color: var(--bg);
+  color: var(--txt);
+  border-radius: 40%;
+}
